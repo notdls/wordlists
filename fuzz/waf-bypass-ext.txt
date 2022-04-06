@@ -1,0 +1,12 @@
+;.css
+;.js
+;.jpg
+;.jpeg
+;/health
+;/healtcheck
+?.css
+?.js
+?.jpg
+?.jpeg
+?/health
+?/healthcheck
