@@ -76,6 +76,8 @@ _.htaccess
 .env.stage
 .env_1
 .env_sample
+.env.json
+.env.yaml
 .esmtprc
 .exports
 .extra
@@ -199,6 +201,10 @@ _.htaccess
 ?view=log
 ?wsdl
 ADSearch.cc?methodToCall=search
+appsettings.json
+appsettings
+appsettings.yaml
+appsettings.yml
 Admin/ServerSide/Telerik.Web.UI.DialogHandler.aspx?dp=1
 AirWatch/Login
 App_Master/Telerik.Web.UI.DialogHandler.aspx?dp=1
@@ -682,8 +688,13 @@ env.js
 env.prod.js
 env.production.js
 env.sh
+env.json
+env.yaml
 env.test.js
+environ
 environment
+environment.json
+environment.yaml
 equipbid/storage/
 error.log
 error.txt
