@@ -878,6 +878,7 @@ haproxy-status
 hashicorp
 header.php.bak
 health
+healthz
 heap
 heap.dmp
 heap.dump
