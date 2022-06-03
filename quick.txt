@@ -1235,6 +1235,7 @@ seminovos/application/configs/application.ini
 sensorlist.htm
 sentry
 sequelize.json
+services
 server-status
 server.json
 server.key
