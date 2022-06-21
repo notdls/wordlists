@@ -1,0 +1,17 @@
+.prettierrc.yaml
+PartitionService.yaml
+admin-rest-spec.yaml
+aliases.yaml
+app.yaml
+application-dev.yaml
+application-storage-filer.yaml
+application-storage-s3.yaml
+application-test.yaml
+application.yaml
+autorabit_alldefault_vlocity_build.yaml
+config.yaml
+package.yaml
+print-config.yaml
+regexes.yaml
+xap-manager-api.yaml
+yaml.yaml
