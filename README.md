@@ -20,5 +20,6 @@ A collection of my custom/every day wordlists and web fuzzing lists
 | fuzz/Custom - Command Injection (small) | A fuzzing list of easy win command injection payloads, all payloads call out to a canary server. You will need to replace `intruder.dns.canary.domain` with your own canary or Burp Collaborator URL | 66 |
 | fuzz/java-trav-endpoints.txt | A list of handy/juicy services to reach if you're able to traverse backwards on a java host or if you're able to fuzz on a secondary context | 71 | 
 | fuzz/waf-bypass-ext.txt | A small/common list of extensions that can be used to bypass WAFs with weak/misconfigures rules | 12 |
+| technologies/java/url-patterns.txt | A list of URL patterns extracted from `web.xml` and similar files | 5,834 |
 
 Anything not listed here should be self explanatory :)
